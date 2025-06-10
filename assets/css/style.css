@@ -1,28 +1,18 @@
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
-    color: #333;
-}
+/* Barra superior de navegación */
 header {
-    background: #111;
+    background: #0b3d91;     /* azul oscuro Roland-Garros → cámbialo al tono que prefieras */
     color: white;
-    padding: 20px;
+    padding: 25px 10px 15px;
     text-align: center;
 }
+
 nav a {
-    margin: 0 10px;
-    color: #61dafb;
-    text-decoration: none;
+    margin: 0 12px;
+    color: #61dafb;          /* azul-cian para los enlaces */
+    font-weight: 600;
 }
-main {
-    padding: 20px;
-}
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #222;
-    color: #bbb;
+
+nav a:hover {
+    color: #ffe680;          /* amarillo suave al pasar el ratón */
+    text-decoration: underline;
 }
